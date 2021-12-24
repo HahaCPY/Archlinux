@@ -483,7 +483,7 @@ colors=(12 12 12 11 12 12 12)
 最後成效：
 ![](https://i.imgur.com/6JhvQqM.png)
 
-# flameshot
+5. flameshot
 ## 參考資料
 
 [小知筆記](https://github.com/YukinaMochizuki/arch-linux-on-7559)
