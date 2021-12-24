@@ -1,0 +1,62 @@
+! ****************
+! urxvt config
+! ****************
+
+!font
+URxvt.font: xft:monaco:size=22
+
+URxvt.inputMethod: fcitx
+URxvt.inheritPixmap: True
+URxvt.tintColor: #30FFFF
+Xft.dpi: 96
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.lcdfilter: lcddefault
+
+!color
+!URxvt.background: black
+URxvt.foreground: #00FFFF
+URxvt.colorBD: white
+URxvt.colorUL: #FF1212
+URxvt.color1: #FF3030
+!hard red
+URxvt.color8: #FFFF3B
+!hard yellow
+URxvt.color2: #BFFFFF
+!blue
+URxvt.color9: #FFDEA1
+!orange
+URxvt.color3: #FFD4D4
+!pink
+URxvt.color4: #EDD4FF
+!purple
+URxvt.color11: #00FFFF
+!main blue
+URxvt.color10: #FFFF82 
+!yellow
+URxvt.color12: #FFFFFF 
+!white
+URxvt.color13: #1212FF
+!hard blue
+URxvt.color14: #7FFFD4
+!hard green
+URxvt.color15: #4545FF
+!blue
+
+!ctrl+shift+c/v
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+
+!back
+URxvt.depth: 64
+URxvt.background:rgba:0000/0000/0000/dddd
+URxvt.transparent: true
+URxvt.shading: 25
